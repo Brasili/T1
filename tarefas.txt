@@ -1,0 +1,42 @@
+Dupla: Matheus Brasili & Victor Santana 
+
+Tarefa executada pela dupla em um mesmo computador:
+-Criação um banco de dados denominado “loja”.
+
+Tarefas a serem realizadas abaixo por cada integrante em seu próprio computador:
+
+Matheus:
+
+- Arquivo form_cidade.php que coleta “Estado” e “Nome da Cidade” e envia para o
+arquivo “cadastra_cidade.php” e grava estes valores em um arquivo XML
+“cidades.xml”. O campo que coleta o estado da cidade deverá ser exibido a partir
+do arquivo “estados.xml”;
+
+- Arquivo “index.php” com a exibição de 3 tabelas (quando houver; quando não
+houver, informar que ainda não há elementos cadastrados):
+
+  *Estados
+  *Cidades
+  *Cadastros
+
+- Arquivo “cabecalho.php” com os links para todas as páginas, que deverá ser
+incluído em todos os arquivos.
+
+- Um arquivo “links_individuais.txt” com o link para o portfólio de cada aluno, onde
+deverá estar cadastrado no portfólio o projeto desenvolvido (esta etapa depende do
+item a seguir - item 4).
+
+
+
+Victor:
+
+- Export completo do banco de dados e inserções realizadas no item 1 e 2;
+
+- Arquivo form_estado.php que coleta “Sigla” e “Nome do Estado” e envia para o
+arquivo “cadastra_estado.php” e grava estes valores em um arquivo XML
+“estados.xml”;
+
+- Arquivo form_cadastro.php com um formulário para coletar os dados “Nome”,
+“Email”, “Sexo”, “Cidade/Estado” e grava estes valores em um arquivo XML
+“cadastro.xml”. O campo que coleta o estado da cidade deverá ser exibido a partir
+do arquivo “cidades.xml”.
