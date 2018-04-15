@@ -1,0 +1,96 @@
+html {
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+body {
+	margin: 10px auto;
+	width: 1200px;
+	max-width: 90%;
+	background-color: #f9f9f9;
+	padding: 15px;
+	box-shadow: 0px 0px 10px gray;
+	border-radius: 10px;
+	font-family: 'Marcellus SC', serif;
+	text-align: center;
+}
+
+h1, h2, th {
+	font-family: 'Marcellus SC', serif;
+}
+
+header h1 {
+	font-size: 2.5em
+}
+
+h1 {
+	text-align: center;
+}
+
+header ul {
+	padding: 0px;
+	list-style-type: none;
+	text-align: center;
+}
+
+header ul li {
+	display: inline-block;
+	padding: 15px;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: black;
+	transition: 1s;
+	font-size: 22px;
+}
+
+header ul li a:hover {
+	text-shadow: 0px 0px 20px black;
+}
+
+div.tabela table td {
+	width: 50%;
+}
+
+table {
+	width: 100%;
+}
+
+table td {
+	text-align: center;
+}
+
+table * {
+	border: 1px solid black;
+}
+
+form {
+	text-align: center;
+}
+
+select {
+	font-family: 'Marcellus SC', serif;
+}
+
+input {
+	font-family: 'Marcellus SC', serif;
+}
+
+input[type="submit"] {
+	border: 0px solid black;
+	padding: 6px 12px;
+	background: transparent;
+	transition: 1s;
+	font-family: 'Marcellus SC', serif;
+	font-size: 18px;
+	outline: 0px;
+}
+
+label {
+	font-size: 20px;
+}
